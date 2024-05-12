@@ -11,8 +11,8 @@ There are two ways to run this model: Using Google Colab or using a GPU machine.
 ### Install & Run on a GPU Machine
 To install and run this model on a GPU machine follow the steps below:
 1. Created your environment
-2. Use conda to navigate to your environemnt through the terminal (conda activate {YOUR_ENV})
-3. Ensure the machine has the most up-to-date pyhton version
+2. Use conda to navigate to your environment through the terminal (conda activate {YOUR_ENV})
+3. Ensure the machine has the most up-to-date python version
 4. Install the following pyhton libraries:
    - open-cv
    - PyTorch
@@ -34,15 +34,15 @@ To install and run this model on Google Colab follow the steps below:
    {from google.colab import drive
 
    drive.mount('/content/drive')}
-4. Install the following pyhton libraries:
+3. Install the following python libraries:
    - open-cv
    - PyTorch
    - TorchVision
    - fvcore library from Facebook using github (!pip install git+https://github.com/facebookresearch/fvcore.git)
-5. Setup Detectron2
+4. Setup Detectron2
    - Clone it from github (!git clone https://github.com/facebookresearch/detectron2 detectron2_repo)
    - Install it's libary (detectron2_repo) in editable mode
-6. Then proceed to run the code
+5. Then proceed to run the code
    
 ## How to Use the Model
 1. Ensure all the necessary libraries are installed (as mentioned above)
@@ -50,7 +50,7 @@ To install and run this model on Google Colab follow the steps below:
     Using the GPU machine - You can just run the code file as mentioned in step 8
 
     Using Google Colab - You can just run the code blocks
-3. The code runs as follows:
+2. The code runs as follows:
    - First, the detectron logger as well as some other common libraries are imported
    - Next, detectron2 is using to train the custome COCO dataset (registering the dataset, retriving the metadata and dataset dictionary)
    - (Optional) you can then verify that the data loading was done correctly
@@ -58,7 +58,7 @@ To install and run this model on Google Colab follow the steps below:
    - Next, a predictor is created to test the model trained
    - Next, we can validate the test results by visualizing some of the prediction results randomly
    - Finally, we benchmarked the inference speed 
-4. You can tune the hyperparameters in the training section as you see fit
+3. You can tune the hyperparameters and the number of epochs in the training section as you see fit
 
 ## Dataset
 The ZeroWaste-f dataset created by Bashkirova et al. [1] is intended for supervised detection and evaluation. It is a fully annotated dataset that is composed of 4661 frames of which 1805 frames were annotated with a subsampling rate of 10 and 2616 frames were annotated with a subsampling rate of 100.
