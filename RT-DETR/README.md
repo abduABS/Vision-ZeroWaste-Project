@@ -3,7 +3,7 @@
 ## Description
 The prime objective of this project is to replicate the results made by Bashkirova et al. [1] in terms of the progress they made in detecting waste in the wild as well as comparing their derived models with SOTA models in object detection. The scope of the research falls within the ZeroWaste dataset and the utilization of box-bounded object detection for classification of waste items into recycling categories for automated recycling systems. The limitation of the research lies in the size of the dataset, while large is only around 6k for the largest variation as well as foreground-background imbalances in the dataset itself.
 
-One of the models we used to achieve our objective is RT-DETR. We trained, our model using the ZeroWaste-f dataset. In this model we used ultralytics to train the model.
+One of the models we used to achieve our objective is RT-DETR. We trained our model using the ZeroWaste-f dataset. In this model we used ultralytics to train the model.
 
 ## Installing & Running the Model
 There are two ways to run this model: Using Google Colab or using a GPU machine. We ran this model on Google Colab.
