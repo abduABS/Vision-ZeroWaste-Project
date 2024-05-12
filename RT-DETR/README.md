@@ -42,6 +42,10 @@ To install and run this model on Google Colab follow the steps below:
    - Finally, it compresses the results and imports them in a zipped file
 3. You can change the number of epochs in the training section as you see fit
 
+### Inference
+Ultralytics automatically generates the inference file as part of the training file, which are imported in the zip file with the results.
+To view the inference, download the zipped file locally to access the inference file.
+
 ## Dataset
 The ZeroWaste-f dataset created by Bashkirova et al. [1] is intended for supervised detection and evaluation. It is a fully annotated dataset that is composed of 4661 frames of which 1805 frames were annotated with a subsampling rate of 10 and 2616 frames were annotated with a subsampling rate of 100.
 
