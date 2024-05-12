@@ -65,4 +65,5 @@ The ZeroWaste-f dataset created by Bashkirova et al. [1] is intended for supervi
 
 ## References
 [1] D. Bashkirova et al., “ZeroWaste dataset: Towards deformable object segmentation in cluttered scenes,” IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 21147–21157, Jun 2022, doi: 10.1109/cvpr52688.2022.02047.
+
 [2] J. Solawetz, “How to train DetectRoN2 on custom Object Detection Data,” Roboflow Blog, Apr. 09, 2024. https://blog.roboflow.com/how-to-train-detectron2/
