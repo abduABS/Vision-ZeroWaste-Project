@@ -56,9 +56,11 @@ To install and run this model on Google Colab follow the steps below:
    - (Optional) you can then verify that the data loading was done correctly
    - Next is finetuning the training. Here the configurations (through which the model is specified as well) are all set up and hyperparameters can be adjusted
    - Next, a predictor is created to test the model trained
-   - Next, we can validate the test results by visualizing some of the prediction results randomly
-   - Finally, we benchmarked the inference speed 
+   - finally, we can validate the test results by visualizing some of the prediction results randomly
 3. You can tune the hyperparameters and the number of epochs in the training section as you see fit
+
+### Inference
+We also benchmarked the inference speed of the training process which can be displayed after the model has finished training. Detectron2 can be run with inference mode, which is linked to the test dataset. The performance metrics (precision, accuracy, and AP scores) are then displayed. There is also the option of viewing three prediction results as mentioned above.
 
 ## Dataset
 The ZeroWaste-f dataset created by Bashkirova et al. [1] is intended for supervised detection and evaluation. It is a fully annotated dataset that is composed of 4661 frames of which 1805 frames were annotated with a subsampling rate of 10 and 2616 frames were annotated with a subsampling rate of 100.
