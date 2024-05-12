@@ -17,7 +17,7 @@ To install and run this model on a GPU machine follow the steps below:
    - ultralytics
    - Any other library as necessary (e.g. PyTorch, Torchvision)
 5. Upload the model code as a .py file in your working directory
-6. Run the model through the terminal using the python3 command (python3 "{YOUR}/{FILE}/{PATH}/MaskRCNN-Code.py")
+6. Run the model through the terminal using the python3 command (python3 "{YOUR}/{FILE}/{PATH}/RTDETR_Ultra-Code.py")
 
 ### Install & Run on Google Colab
 To install and run this model on Google Colab follow the steps below:
