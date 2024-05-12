@@ -25,5 +25,5 @@ The models we used were:
 
 Their codes and README files are all included in this repository within their respective folders.
 
-## Referernce
+## Reference
 [1] D. Bashkirova et al., “ZeroWaste dataset: Towards deformable object segmentation in cluttered scenes,” IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 21147–21157, Jun 2022, doi: 10.1109/cvpr52688.2022.02047.
